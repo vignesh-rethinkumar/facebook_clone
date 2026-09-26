@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile page - SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png" alt="notification"></li>
+                <li><img src="images/inbox.png" alt="inbox"></li>
+                <li><img src="images/video.png" alt="video"></li>
+            </ul>
+        </div>
+         <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="SettingsMenuToggle()">
+                <img src="images/profile-image.jpeg" >
+            </div>
+         </div>
+
+
+         <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                  <div class="user-profile">
+                    <img src="images/profile-image.jpeg">
+                    <div>
+                        <p>Vignesh Rethinakumar</p>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help  Us To Improve The New Design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+            </div>
+           
+         </div>
+    </nav>  
+
+    <!--profile page-->
+
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile-image.jpeg" class="pd-image">
+                    <div>
+                        <h3>Vignesh Rethinakumar</h3>
+                        <p>120 Friends - 20 Mutuals</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"> <img src="images/add-friends.png"> Friend</button>
+                <button type="button"> <img src="images/message.png"> Message</button>
+                <br>
+                <a href=""><img src="images/more.png"></a>
+            </div>
+        </div>
+
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Belive in yourself and you can do unbelievable things. <img src="images/feeling.png">
+                    </p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png">Director at TCS.</li>
+                        <li><img src="images/profile-study.png">Studied aat MCC bangalore</li>
+                        <li><img src="images/profile-study.png">Went to christ university</li>
+                        <li><img src="images/profile-study.png">Lives in Bangalore,India</li>
+                        <li><img src="images/profile-location.png">From Tamilnadu,India</li>
+                        
+                    </ul>
+                </div>
+
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png"></div>
+                        <div><img src="images/photo2.png"></div>
+                        <div><img src="images/photo3.png"></div>
+                        <div><img src="images/photo4.png"></div>
+                        <div><img src="images/photo5.png"></div>
+                        <div><img src="images/photo6.png"></div>
+                    </div>
+                </div>
+
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>120 (10 mutuals)</p>
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png"><p>vignesh</p></div>
+                        <div><img src="images/member-2.png"><p>avinash</p></div>
+                        <div><img src="images/member-3.png"><p>aakash</p></div>
+                        <div><img src="images/member-4.png">samaya</div>
+                        <div><img src="images/member-5.png">veera</div>
+                        <div><img src="images/member-6.png">vishnu</div>
+                        <div><img src="images/member-7.png">veedha</div>
+                        <div><img src="images/member-8.png">virat</div>
+                        <div><img src="images/member-9.png">dhoni</div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                  <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-image.jpeg">
+                    <div>
+                        <p>Vignesh Rethinakumar</p>
+                        <small>Public &#9660;</small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea row="3" placeholder="what's on your mind,Vignesh?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png">Live Video</a>
+                        <a href="#"><img src="images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+                    </div>
+                </div>
+                <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                    <img src="images/profile-image.jpeg">
+                    <div>
+                        <p>Vignesh Rethinakumar</p>
+                        <span>March 04 2008,04:00pm</span>
+                    </div>
+                </div>
+                    <a href="#">&#8942;</a>
+                </div>
+                <p class="post-text">Welcome to my page.Here i'm <span>learning</span> web development and UI design.<a href="#">#webdevelopment</a> <a  href="#">#UI design</a></p>
+                <img src="images/feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">300</div>
+                        <div><img src="images/comments.png">150</div>
+                        <div><img src="images/share.png">200</div>
+                    </div>
+                    <div class="post-profile-icon">
+                         <img src="images/profile-image.jpeg">  &#9660;
+                    </div>
+                </div>
+            </div>
+               <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                    <img src="images/profile-image.jpeg">
+                    <div>
+                        <p>Vignesh Rethinakumar</p>
+                        <span>March 04 2008,04:00pm</span>
+                    </div>
+                </div>
+                    <a href="#">&#8942;</a>
+                </div>
+                <p class="post-text">learning is a  <span>logical</span> skill.AI  and ML is the future of computer students.<a href="#">#AritificialInterlligence</a> <a  href="#">#MachineLearning</a></p>
+                <img src="images/feed-image-2.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">300</div>
+                        <div><img src="images/comments.png">150</div>
+                        <div><img src="images/share.png">200</div>
+                    </div>
+                    <div class="post-profile-icon">
+                         <img src="images/profile-image.jpeg">  &#9660;
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                    <img src="images/profile-image.jpeg">
+                    <div>
+                        <p>Vignesh Rethinakumar</p>
+                        <span>March 04 2008,04:00pm</span>
+                    </div>
+                </div>
+                    <a href="#">&#8942;</a>
+                </div>
+                <p class="post-text">Welcome to my page.Here i'm <span>learning</span> web development and UI design.<a href="#">#webdevelopment</a> <a  href="#">#UI design</a></p>
+                <img src="images/feed-image-3.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">300</div>
+                        <div><img src="images/comments.png">150</div>
+                        <div><img src="images/share.png">200</div>
+                    </div>
+                    <div class="post-profile-icon">
+                         <img src="images/profile-image.jpeg">  &#9660;
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                    <img src="images/profile-image.jpeg">
+                    <div>
+                        <p>Vignesh Rethinakumar</p>
+                        <span>March 04 2008,04:00pm</span>
+                    </div>
+                </div>
+                    <a href="#">&#8942;</a>
+                </div>
+                <p class="post-text">Welcome to my page.Here i'm <span>learning</span> web development and UI design.<a href="#">#webdevelopment</a> <a  href="#">#UI design</a></p>
+                <img src="images/feed-image-4.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">300</div>
+                        <div><img src="images/comments.png">150</div>
+                        <div><img src="images/share.png">200</div>
+                    </div>
+                    <div class="post-profile-icon">
+                         <img src="images/profile-image.jpeg">  &#9660;
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                    <img src="images/profile-image.jpeg">
+                    <div>
+                        <p>Vignesh Rethinakumar</p>
+                        <span>March 04 2008,04:00pm</span>
+                    </div>
+                </div>
+                    <a href="#">&#8942;</a>
+                </div>
+                <p class="post-text">Welcome to my page.Here i'm <span>learning</span> web development and UI design.<a href="#">#webdevelopment</a> <a  href="#">#UI design</a></p>
+                <img src="images/feed-image-5.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">300</div>
+                        <div><img src="images/comments.png">150</div>
+                        <div><img src="images/share.png">200</div>
+                    </div>
+                    <div class="post-profile-icon">
+                         <img src="images/profile-image.jpeg">  &#9660;
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright 2026 - my first project facebook clone</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
